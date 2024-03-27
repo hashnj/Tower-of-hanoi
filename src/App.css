@@ -1,0 +1,35 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+.card {
+  padding: 2em;
+}
+
+.line{
+  background-color: black;
+  height: 200px;
+  width : 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  z-index:1;
+
+}
+.discs{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  z-index: 2;
+
+}
+.dsk{
+  background-color: antiquewhite;
+  height: 10px;
+  margin-top:2px ;
+  
+}
+.selected .line{
+  background-color: rgba(79, 79, 4, 0.68);
+}
