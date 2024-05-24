@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Lumanosimo&display=swap');
 #root {
   max-width: 1280px;
-  margin: 0 auto;
+  margin: 0 ;
+  padding: 0;
   text-align: center;
 }
 .card {
@@ -10,7 +12,7 @@
 .line{
   background-color: black;
   height: 200px;
-  width : 10px;
+  width : 12px;
   display: flex;
   flex-direction: column;
   justify-content:flex-end;
@@ -25,11 +27,168 @@
 
 }
 .dsk{
-  background-color: antiquewhite;
-  height: 10px;
+  background-color: rgb(89, 61, 61);
+  border:solid 0.5px rgb(230, 118, 118);
+  height: 12px;
   margin-top:2px ;
   
 }
 .selected .line{
-  background-color: rgba(79, 79, 4, 0.68);
+  background-color: rgba(114, 114, 5, 0.68);
+}
+
+
+.card{
+  display :flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  
+  background-color: rgba(241, 244, 244, 0.774);
+  border-radius: 20px;
+  height:80vh;
+  width:80vw;
+  z-index: 15;
+
+}
+
+.outr{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  width:100vw;
+  z-index: 1;
+  background-image:url("C:\Users\menik\OneDrive\Desktop\cohort\hanoiTower\src\WhatsApp Image 2024-05-21 at 4.05.52 PM.jpeg") ;
+  background-size: cover;
+  
+  
+}
+.layer{
+  /* background-color: rgba(27, 26, 28, 0.279); */
+  background-color: indigo;
+  width: 100%;
+  height:100%;
+  position :absolute;
+}
+
+.h{
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 700;
+  font-size: 42px;
+  font-style: normal;
+}
+.inp{
+  background-color: rgba(255, 255, 255, 0.523);
+  padding-left: 7px;
+  
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.linee{
+  background-color: rgb(29, 109, 148);
+  /* border: 1px solid black; */
+  display: flex;
+  width: 120px;
+  height: 5px;
+  position: relative;
+  left: -50px;
+}
+.background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100vw;
+  height: 100vh;
+  background-color: rgb(0, 0, 0,0.3);
+  z-index: 20;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:400px !important;
+  height:300px;
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 24px;
+  background-color: rgba(255, 255, 255, 0.735) !important;
+  background:url("https://acegif.com/wp-content/uploads/gif/confetti-43.gif");
+  background-size: contain;
+  border-radius: 7px;
+}
+
+.buttonss{
+  margin: -25px;
+  margin-top: 45px;
+  
+  /* border: 1px solid ; */
+}
+.container button{
+  background-color: aliceblue;
+  padding: 5px;
+  margin: 25px 15px;
+  border-radius:5px ;
+  /* font-family:"Gloria Hallelujah",; */
+}
+.how{
+  position: absolute;
+  top:15vh;
+  right: 15vw;
+  font-size: 28px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  display: none;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 1px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(56, 56, 56);
+  border-radius: 10px;
+  
+}
+.containerr{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:75vw !important;
+  height:72vh;
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  box-shadow: 5px 4px #888888;
+  font-size: 28px;
+  background-color: rgba(10, 10, 10, 0.852) !important;
+  color: aliceblue;
+  border-radius: 17px;
+  overflow-y:scroll;
+  font-family: "Gloria Hallelujah", cursive;
+  /* padding-top:10vh; */
+  /* margin-top: 0 auto; */
+}
+.inn{
+  /* border:1px solid #888888; */
+position: relative;
+height:100%;
+width:70vw;
+}
+
+.containerr ul{
+  list-style:circle;
+  padding: 1px 13px;
 }
