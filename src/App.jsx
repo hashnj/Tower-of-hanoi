@@ -79,7 +79,7 @@ function Game(){
       <div className='flex justify-between '>
       {tower.map((diss,i)=>(
         
-        <div onClick={()=>{handleClick(i)}}  className={'cursor-pointer p-10 flex justify-between w-32 '+(selected==i ? 'selected':'')} key={i}>
+        <div onClick={()=>{handleClick(i)}}  className={'cursor-pointer p-10 flex justify-center w-32 '+(selected==i ? 'selected':'')} key={i}>
           
           <div className={'line bg-black'}>
             <div className='discs'>
