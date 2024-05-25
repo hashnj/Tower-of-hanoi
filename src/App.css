@@ -193,9 +193,9 @@ width:70vw;
   padding: 1px 13px;
 }
 @media only screen and (max-width: 560px) {
-  .how{
+  .containerr{
     height: 95vh;
-    width:95vw;
+    width:97vw;
   }
   .layer{
     height: 100vmax;
