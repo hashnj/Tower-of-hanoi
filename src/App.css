@@ -208,8 +208,12 @@ width:70vw;
     display: none;
   }
   .linee{
+    width: 60px;
     position: relative;
-    left: -30px;
+    left: -20px;
+  }
+  .line{
+    padding: 20px;
   }
   .card{
     height: 90vh;
