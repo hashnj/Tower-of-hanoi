@@ -212,10 +212,15 @@ width:70vw;
     position: relative;
     left: -20px;
   }
-  .line{
-    padding: 20px;
-  }
+/*   .line{ */
+/*     padding: 20px; */
+/*   } */
   .card{
     height: 90vh;
   }
+   .pole{
+    width:10px !important;
+    padding:20px
+  }
+  
 }
