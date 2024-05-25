@@ -211,4 +211,7 @@ width:70vw;
     position: relative;
     left: -30px;
   }
+  .card{
+    height: 90vh;
+  }
 }
