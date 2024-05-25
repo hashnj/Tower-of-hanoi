@@ -200,6 +200,7 @@ width:70vw;
   }
   .layer{
     height: 110vmax;
+    width: 100vmax;
   }
   .a{
     width: 60vw !important;
