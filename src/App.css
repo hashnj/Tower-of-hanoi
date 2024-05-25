@@ -218,6 +218,7 @@ width:70vw;
 /*   } */
   .card{
     height: 90vh;
+    top:7vh;
   }
    .pole{
     width:10px !important;
