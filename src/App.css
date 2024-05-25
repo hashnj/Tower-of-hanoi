@@ -196,8 +196,19 @@ width:70vw;
   .containerr{
     height: 95vh;
     width:99vw;
+    margin: 0;
   }
   .layer{
     height: 100vmax;
+  }
+  .a{
+    width: 50vw !important;
+  }
+  .t{
+    display: none;
+  }
+  .linee{
+    position: relative;
+    left: -30px;
   }
 }
