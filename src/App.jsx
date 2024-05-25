@@ -68,10 +68,10 @@ function Game(){
       <div className='card'>
       <div className='absolute p-3 top-0 h'>Tower of Hanoi</div>
       
-      <div className="a absolute shadow-lg shadow-gray-500/40 top-[20vh] text-xl p-3">Minimum-step Solution with {discs} Discs has {mini} steps </div>
-      <div className="a absolute shadow-lg shadow-gray-500/40 bottom-[20vh] text-xl p-3">Number of moves: {score} </div>
+      <div className="a absolute shadow-lg shadow-gray-500/40 top-[15vh] md:top-[20vh] text-xl p-3">Minimum-step Solution with {discs} Discs has {mini} steps </div>
+      <div className="a absolute shadow-lg shadow-gray-500/40 bottom-[15] md:bottom-[20vh] text-xl p-3">Number of moves: {score} </div>
       {btn &&
-      <div className="absolute  shadow-lg rounded-lg shadow-indigo-500/90 bottom-[12vh] text-xl p-3"><button onClick={()=>{ const inp=document.querySelector('.inp');
+      <div className="absolute  shadow-lg rounded-lg shadow-indigo-500/90 bottom-[6vh] md:bottom-[12vh] text-xl p-3"><button onClick={()=>{ const inp=document.querySelector('.inp');
       inp.value++;
       setDiscs(d=>d+1);
       setBtn(false)}}>Disc+1</button> </div>}
@@ -96,7 +96,7 @@ function Game(){
         setDiscs(parseInt(e.target.value))
       }}/>
       </div>
-      <p className='text-gray-300 hover:text-gray-400 relative -left-9'>you can change the number of disks ^ here</p>
+      <p className='t text-gray-300 hover:text-gray-400 relative -left-9'>you can change the number of disks ^ here</p>
     </div>
     </div>
     {won &&
