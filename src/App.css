@@ -38,7 +38,7 @@
 }
 
 
-.card{
+/* .card{
   display :flex;
   flex-direction: column;
   justify-content: center;
@@ -66,13 +66,13 @@
 }
 .layer{
   /* background-color: rgba(27, 26, 28, 0.279); */
-  background-color: indigo;
+  /* background-color: indigo;
   width: 100%;
   height:100%;
   position :absolute;
-}
+} */
 
-.h{
+/* .h{
   font-family: "Gloria Hallelujah", cursive;
   font-weight: 700;
   font-size: 42px;
@@ -87,7 +87,7 @@ input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button { 
   -webkit-appearance: none; 
   margin: 0; 
-}
+  } */
 .linee{
   background-color: rgb(29, 109, 148);
   /* border: 1px solid black; */
@@ -110,7 +110,7 @@ input[type=number]::-webkit-outer-spin-button {
   z-index: 20;
 }
 
-.container{
+/* .container{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -124,7 +124,7 @@ input[type=number]::-webkit-outer-spin-button {
   background:url("https://acegif.com/wp-content/uploads/gif/confetti-43.gif");
   background-size: contain;
   border-radius: 7px;
-}
+} */
 
 .buttonss{
   margin: -25px;
@@ -146,7 +146,7 @@ input[type=number]::-webkit-outer-spin-button {
   font-size: 28px;
 }
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 0px;
   display: none;
 
 }
